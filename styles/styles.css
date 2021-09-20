@@ -1,0 +1,69 @@
+/* eciste el !important*/
+
+p{
+    color: blue;
+}
+h3{
+    color: orange;
+}
+a{
+ background-color: green;
+}
+#parrafo3{
+    color: rgb(10, 48, 10);
+}
+.textoGris{
+    color: gray;
+}
+.textoRosado{
+    color: palevioletred;
+}
+.fondoRojo{
+    background-color: red;
+}.fondoAmarillo{
+    background-color: yellow;
+}
+.negritaGrande{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imagenPequeña{
+    height: 200px;
+}
+.textoAncho{
+    height: 30px;
+    width: 20;
+}
+.contenedorConMargen{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 10px;
+    
+}
+.contenedorDivsGrid{
+    border: 2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 20px 20px 20px ;
+    grid-template-columns: 150px 150px 150px 150px;
+    margin: 20px;
+}
+.divTest{
+    border: 1px solid red;
+    height: 50px;
+    
+}
+
+.contenedorDivsFlex{
+    border: 2px solid green;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
